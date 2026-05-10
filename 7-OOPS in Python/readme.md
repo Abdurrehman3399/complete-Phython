@@ -1,20 +1,31 @@
-#  Python Basics: Object-Oriented Programming (OOP)
+#  Python OOP: Methods (Simple, Class & Static)
 
 ##  Overview
-This project introduces the concept of **Object-Oriented Programming (OOP)** in Python.  
-It helps beginners understand how to structure programs using classes and objects.
+This project explains different types of methods used in **Object-Oriented Programming (OOP)** in Python:
+- Simple (Instance) Methods  
+- Class Methods  
+- Static Methods  
+
+It helps beginners understand how methods work inside a class.
 
 ---
 
 ##  Topics Covered
-- What is OOP?
-- Classes and Objects  
-- Constructors (`__init__`)  
-- Instance variables  
-- Methods  
-- Encapsulation  
-- Inheritance  
-- Polymorphism  
+
+### 🔹 Simple (Instance) Method
+- Uses `self`  
+- Works with object data  
+- Called using an object  
+
+### 🔹 Class Method
+- Uses `@classmethod`  
+- Works with class data  
+- Uses `cls`  
+
+### 🔹 Static Method
+- Uses `@staticmethod`  
+- Does not use `self` or `cls`  
+- Works like a normal function inside a class  
 
 ---
 
@@ -26,25 +37,24 @@ It helps beginners understand how to structure programs using classes and object
 
 ##  How to Run
 1. Install Python  
-2. Open the notebook file:
-
+2. Open the notebook file:  
 
 ---
 
 ##  Purpose
 This project helps beginners learn:
-- How to create classes and objects  
-- How to organize code using OOP principles  
-- How to build scalable and reusable programs  
+- Different types of methods in Python  
+- When to use `self`, `cls`, and static methods  
+- How to organize code using OOP  
 
 ---
 
 ##  Future Improvements
-- Add real-world OOP projects  
-- Include practice exercises  
-- Add diagrams for better understanding  
+- Add real-life examples  
+- Add practice exercises  
+- Include mini projects  
 
 ---
 
 ##  Contributing
-Feel free to fork this project and improve it with more examples and explanations.
+Feel free to fork this project and improve it with more examples or explanations.
